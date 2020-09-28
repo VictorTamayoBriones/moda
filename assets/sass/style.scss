@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    padding: 15px;
+    background: #245dc7;
+    .container{
+        width: 80%;
+        margin: auto;
+        color: #fff;
+        background: #245dc7;
+        h1{
+            text-align: center;
+        }
+    }
+}
+
+.images{
+    margin-top:25px;
+    .container{
+        width:80%;
+        margin:auto;
+        .pictures{
+            width: 80%;
+            margin:auto;
+            display:flex;
+            .picture{
+                width: 50%;
+                overflow: hidden;
+                margin:0px 10px;
+                h3{
+                    margin:15px;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.moda{
+    margin-top: 50px;
+    .container{
+        width: 80%;
+        margin: auto;
+        h2{
+            text-align: center;
+        }
+        .array{
+            width: 80%;
+            padding:20px;
+            margin: auto;
+            form{
+                width: 80%;
+                margin: auto;
+                padding:20px;
+                input{
+                    width: 30px;
+                    margin-left: 10px;
+                    padding:10px;
+                }
+            }
+            button{
+                background: #288fe2;
+                padding: 10px;
+                color: #fff;
+                border: none;
+                border-radius:5px;
+                margin-left:10px;
+            }
+        }
+
+        .resultado{
+            display:none;
+        }
+    }
+}
+
+.container{
+    background: #ccc;
+    width: 80%;
+    margin: auto;
+    margin-top:25px;
+    padding: 20px;
+    .arreglo{
+        width: 50%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        .comparacion{
+            border: 3px solid red;
+            display: flex;
+            margin: 0px 10px;
+            padding: 5px;
+            .i{
+                font-size: 20px;
+                padding: 20px;
+                border: 2px solid yellow;
+                margin:10px;
+            }
+            .x{
+                font-size: 20px;
+                padding: 20px;
+                border: 2px solid green;
+                margin:10px;
+            }
+        }
+    }
+
+    .resultado{
+        font-size: 22px;
+        margin: 18px;
+    }
+}
+
+footer{
+    width: 100%;
+    .container{
+        width: 100%;
+        background: #000;
+        p{
+            color: #fff;
+            text-align: center;
+        }
+    }
+}

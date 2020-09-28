@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #fff;
+  width: 100%; }
+
+nav {
+  width: 100%;
+  padding: 15px;
+  background: #245dc7; }
+  nav .container {
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    background: #245dc7; }
+    nav .container h1 {
+      text-align: center; }
+
+.images {
+  margin-top: 25px; }
+  .images .container {
+    width: 80%;
+    margin: auto; }
+    .images .container .pictures {
+      width: 80%;
+      margin: auto;
+      display: flex; }
+      .images .container .pictures .picture {
+        width: 50%;
+        overflow: hidden;
+        margin: 0px 10px; }
+        .images .container .pictures .picture h3 {
+          margin: 15px; }
+        .images .container .pictures .picture img {
+          width: 100%; }
+
+.moda {
+  margin-top: 50px; }
+  .moda .container {
+    width: 80%;
+    margin: auto; }
+    .moda .container h2 {
+      text-align: center; }
+    .moda .container .array {
+      width: 80%;
+      padding: 20px;
+      margin: auto; }
+      .moda .container .array form {
+        width: 80%;
+        margin: auto;
+        padding: 20px; }
+        .moda .container .array form input {
+          width: 30px;
+          margin-left: 10px;
+          padding: 10px; }
+      .moda .container .array button {
+        background: #288fe2;
+        padding: 10px;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        margin-left: 10px; }
+    .moda .container .resultado {
+      display: none; }
+
+.container {
+  background: #ccc;
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+  padding: 20px; }
+  .container .arreglo {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row; }
+    .container .arreglo .comparacion {
+      border: 3px solid red;
+      display: flex;
+      margin: 0px 10px;
+      padding: 5px; }
+      .container .arreglo .comparacion .i {
+        font-size: 20px;
+        padding: 20px;
+        border: 2px solid yellow;
+        margin: 10px; }
+      .container .arreglo .comparacion .x {
+        font-size: 20px;
+        padding: 20px;
+        border: 2px solid green;
+        margin: 10px; }
+  .container .resultado {
+    font-size: 22px;
+    margin: 18px; }
+
+footer {
+  width: 100%; }
+  footer .container {
+    width: 100%;
+    background: #000; }
+    footer .container p {
+      color: #fff;
+      text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
